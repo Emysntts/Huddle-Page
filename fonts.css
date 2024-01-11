@@ -1,0 +1,26 @@
+
+  @font-face {
+    font-family: 'poppinssemibold';
+    src: url('./fonts/static/poppins-semibold-webfont.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+
+  @font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('/fonts/static/OpenSans-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('./fonts/static/OpenSans-Bold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  

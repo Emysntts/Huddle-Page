@@ -1,0 +1,248 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    margin: 0 auto;
+}
+header{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    background-image: url(imagens/background.jpeg)
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 170px;
+}
+
+nav p{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 70px;
+    margin-top: 30px;
+    width: 100px;
+    color:hsl(192, 100%, 9%);
+    font-family: 'poppinssemibold';
+    text-align: center;
+    box-shadow:  2px 2px 1px  hsl(208, 11%, 55%);
+}
+nav a{
+    color: hsl(192, 100%, 9%);
+}
+.conteúdo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+.text{
+    width: 520px;
+    margin-left: 70px;
+}
+.text h1{
+    font-family: 'OpenSans-Bold';
+    color:hsl(192, 100%, 9%); 
+    font-size: 40px;
+
+}
+.text p{
+    font-family: 'OpenSans-Regular';
+    color:hsl(192, 100%, 9%); 
+    margin-bottom: 20px;
+}
+
+#botão{
+    font-size: 16px;
+    font-family: 'OpenSans-Regular';
+    box-shadow:  1px 1px 3px hsl(208, 11%, 55%);
+    border-radius: 40px;
+    text-align: center;
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: hsl(322, 100%, 66%);  
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.conteúdo img{
+    width: 680px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    align-items: center;
+    justify-items: center;
+
+}
+.area2, .area3, .area4{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    box-shadow:  1px 1px 3px hsl(208, 11%, 55%);
+    border-radius: 10px;
+}
+.conteiner1 .conteiner2 .conteiner3{
+    width: 400px;
+}
+main h2{
+    font-family: 'OpenSans-Bold';
+    color:hsl(192, 100%, 9%); 
+    font-size: 20px;
+    margin-left: 100px;
+    width: 250px;
+
+}
+
+main p{
+    font-family: 'OpenSans-Regular';
+    color:hsl(208, 11%, 55%); 
+    margin-left: 100px;
+    width: 440px;
+}
+
+.area2 img{
+    width: 360px;
+    margin-right: 30px;
+}
+.area3 img{
+    width: 360px;
+    margin-left: 100px;
+}
+.area4 img{
+    width: 360px;
+    margin-right: 30px;
+}
+
+aside{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.aside{
+    position: relative;
+    top: 140px;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    height: 120px;
+    box-shadow:  1px 1px 3px hsl(208, 11%, 55%);
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.aside h1{
+    font-family: 'OpenSans-Bold';
+    color:hsl(192, 100%, 9%); 
+    font-size: 20px;
+}
+
+.aside a{
+    color: white;
+    font-size: 16px;
+    font-family: 'OpenSans-Regular';
+    box-shadow:  1px 1px 3px hsl(208, 11%, 55%);
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-inline: 50px;
+    background-color: hsl(322, 100%, 66%);  
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+    background-color:hsl(192, 100%, 9%);
+    color: white;
+}
+
+article{
+    margin-top: 60px;
+    width: auto;
+}
+
+section{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center; 
+    margin-left:80px;
+    width: auto;
+}
+
+.huddle{
+    font-family: 'OpenSans-Bold';
+    font-size: 30px;
+}
+ion-icon{
+    font-size: 24px;
+}
+#section1, #section2, #section3 {
+    width: 380px;
+    font-family: 'OpenSans-Regular';
+}
+
+#section2{
+    margin-top: 0;
+    position: relative;
+    bottom: 20px;
+}
+#section3{
+    position: relative;
+    bottom: 20px;
+}
+
+small{
+    font-family: 'OpenSans-Regular';
+    position: relative;
+    left: 612px;
+    top: 60px
+}
+
+.attribution{
+    font-family: 'OpenSans-Regular';
+    position: relative;
+    top: 80px
+}
+.attribution a{
+    color: hsl(322, 100%, 66%);
+}
