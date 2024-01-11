@@ -1,5 +1,5 @@
 <p align="center">
- <img src="../huddle-landing-page-with-alternating-feature-blocks-master/design/desktop-design.jpg" alt="Demonstração do projetos" widht=100% />
+ <img src="./design/desktop-design.jpg" alt="Demonstração do projetos" widht=100% />
 </p>
 
 ## 💻 Projeto
